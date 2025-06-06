@@ -3,7 +3,7 @@ function Service() {
     return (
         <article className='px-20 py-24 flex flex-col gap-20 bg-[#ccc] rounded-xl lg:rounded-4xl md:flex-row md:flex-nowrap'>
             <div className='md:w-4/12 md:order-2 md:flex md:flex-col md:justify-center'>
-                <h2 className='app-title2 text-appdark mb-2'>Our Service</h2>
+                <h2 className='app-title2 text-appgray mb-2'>Our Service</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris</p>
             </div>
             <div className='flex flex-col md:w-8/12'>

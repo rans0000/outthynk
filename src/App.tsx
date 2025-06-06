@@ -1,14 +1,16 @@
 import './App.css'
+import AboutUs from './components/widgets/about-us'
 import Header from './components/widgets/header'
 import Service from './components/widgets/service'
 
 function App() {
 
   return (
-    <div className="wrapper flex flex-col max-w-[1200px] gap-y-20 m-auto px-2.5">
+    <main className="wrapper flex flex-col max-w-[1200px] gap-y-20 m-auto px-2.5">
       <Header />
       <Service />
-    </div>
+      <AboutUs />
+    </main>
   )
 }
 
