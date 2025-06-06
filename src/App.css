@@ -132,12 +132,15 @@
   }
 
   #root {
-    @apply w-svw h-svh;
+    @apply min-w-svw min-h-svh;
   }
 }
 
 @layer components {
   .app-title {
     @apply text-appblue font-bold text-[64px] text-center;
+  }
+  .app-title2 {
+    @apply font-koho font-bold text-3xl;
   }
 }
