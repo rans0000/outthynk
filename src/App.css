@@ -6,8 +6,14 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+  /* fonts */
   --font-koho: KoHo, "sans-serif";
   --font-open-sans: Open Sans, " sans-serif";
+
+  /* color */
+  --color-appblue: #5db0f4;
+  --color-appdark: #1a3953;
+  --color-appgray: #1e1e1e;
 }
 
 @theme inline {
@@ -122,6 +128,16 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground text-appgray;
+  }
+
+  #root {
+    @apply w-svw h-svh;
+  }
+}
+
+@layer components {
+  .app-title {
+    @apply text-appblue font-bold text-[64px] text-center;
   }
 }
