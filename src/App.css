@@ -135,7 +135,7 @@
   }
 
   #root {
-    @apply min-w-svw min-h-svh;
+    @apply min-w-svw min-h-svh px-5;
   }
 }
 
