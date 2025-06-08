@@ -1,7 +1,16 @@
 
+import { motion } from "motion/react";
+
 function AboutUs() {
     return (
-        <article>
+        <motion.article
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{
+                opacity: 1,
+                y: 0
+            }}
+            transition={{ duration: 0.5 }}
+        >
             <div className="flex flex-col justify-center gap-2 m-auto w-full max-w-md mb-8">
                 <h2 className="app-title2 text-appdark text-center">About Us</h2>
                 <p className="text-center">We design and build custom websites to drive leads, close deals and grow your business</p>
@@ -18,7 +27,7 @@ function AboutUs() {
                     </div>
                 </figcaption>
             </figure>
-        </article>
+        </motion.article>
     )
 }
 
