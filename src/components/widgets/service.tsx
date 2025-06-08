@@ -34,12 +34,14 @@ function Service() {
                 </ul>
                 <span className='my-16 h-[1px] bg-gray-400 block w-full'></span>
                 <ul className='flex flex-wrap justify-center'>
-                    <li className='basis-1/4 flex justify-center items-center mb-4'><img src='images/logo-nextjs.png' width="64" height="64" alt='NextJs' /></li>
-                    <li className='basis-1/4 flex justify-center items-center mb-4'><img src='images/logo-react.png' width="64" height="64" alt='ReactJs' /></li>
-                    <li className='basis-1/4 flex justify-center items-center mb-4'><img src='images/logo-node.png' width="64" height="64" alt='NodeJs' /></li>
-                    <li className='basis-1/4 flex justify-center items-center mb-4'><img src='images/logo-laravel.png' width="64" height="64" alt='Laravel' /></li>
-                    <li className='basis-1/4 flex justify-center items-center mb-4'><img src='images/logo-wordpress.png' width="64" height="64" alt='Wordpress' /></li>
-                    <li className='basis-1/4 flex justify-center items-center mb-4'><img src='images/logo-strapi.png' width="64" height="64" alt='Strapi' /></li>
+                    <li className='flex justify-center items-center mb-4 basis-1/3 md:basis-1/4'><img src='images/logo-nextjs.png' width="64" height="64" alt='NextJs' /></li>
+                    <li className='flex justify-center items-center mb-4 basis-1/3 md:basis-1/4'><img src='images/logo-react.png' width="64" height="64" alt='ReactJs' /></li>
+                    <li className='flex justify-center items-center mb-4 basis-1/3 md:basis-1/4'><img src='images/logo-node.png' width="64" height="64" alt='NodeJs' /></li>
+                    <li className='flex justify-center items-center mb-4 basis-1/3 md:basis-1/4'><img src='images/logo-laravel.png' width="64" height="64" alt='Laravel' /></li>
+                    <li className='flex justify-center items-center mb-4 basis-1/3 md:basis-1/4'><img src='images/logo-wordpress.png' width="64" height="64" alt='Wordpress' /></li>
+                    <li className='flex justify-center items-center mb-4 basis-1/3 md:basis-1/4'><img src='images/logo-strapi.png' width="64" height="64" alt='Strapi' /></li>
+                    <li className='flex justify-center items-center mb-4 basis-1/3 md:basis-1/4'><img src='images/logo-java.png' width="64" height="64" alt='Java' /></li>
+                    <li className='flex justify-center items-center mb-4 basis-1/3 md:basis-1/4'><img src='images/logo-python.png' width="64" height="64" alt='Python' /></li>
                 </ul>
             </div>
         </motion.article>
