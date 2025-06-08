@@ -22,9 +22,6 @@ function Header() {
         setScrollDirection(current === 0 ? -1 : (diff > 0 ? 1 : -1))
     })
 
-    console.log(scrollDirection);
-
-
     return (
         <header className='relative bg-[url(/images/hero-xl.png)] h-svh max-h-[640px] flex flex-col items-center justify-center rounded-b-xl lg:rounded-b-4xl'>
             <div className="fixed z-30 top-0 left-0 px-5 w-full flex justify-center">
