@@ -13,10 +13,10 @@ function Contact() {
                 }}
                 transition={{ duration: .3 }}
             >
-                <h4 className="app-title2 text-appdark mb-2">Interested in working with us?</h4>
-                <p className="max-w-96">We design and build custom websites to drive leads, close deals and grow your business</p>
+                <h4 className="app-title2 text-appdark mb-2">Ready to Build Something Exceptional?</h4>
+                <p className="max-w-lg">Partner with us to bring your digital vision to life. Whether it's a custom website, a mobile app, or a software platform, we’ll help you craft solutions that drive results. Get in touch today to schedule a free consultation.</p>
             </motion.div>
-            <div>
+            <div className="flex items-center">
                 <Button variant="outline" className="btn-outline">Contact Us <span className="text-gray-400">|</span> <ArrowRight /></Button>
             </div>
         </article>

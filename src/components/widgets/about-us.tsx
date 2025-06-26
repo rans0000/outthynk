@@ -11,9 +11,9 @@ function AboutUs() {
             }}
             transition={{ duration: 0.5 }}
         >
-            <div className="flex flex-col justify-center gap-2 m-auto w-full max-w-md mb-8">
+            <div className="flex flex-col justify-center gap-2 m-auto w-full max-w-lg mb-8">
                 <h2 className="app-title2 text-appdark text-center">About Us</h2>
-                <p className="text-center">We design and build custom websites to drive leads, close deals and grow your business</p>
+                <p className="text-center">We're a team of creative designers, developers, and strategists passionate about building custom web and mobile solutions. Our mission is to help startups and businesses grow by creating intuitive, scalable, and high-converting digital experiences.</p>
             </div>
 
             <figure className="rounded-4xl flex flex-col overflow-hidden md:flex-nowrap md:flex-row md:bg-[#140A35]">
@@ -23,7 +23,7 @@ function AboutUs() {
                 <figcaption className="p-16 flex flex-col justify-center grow md:bg-[#191927] md:text-white">
                     <h3 className="app-title2 mb-4">Our Vision</h3>
                     <div className="max-w-sm">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris</p>
+                        <p>To empower businesses with innovative technology and user-centric design. We envision a world where every brand has a digital presence that performs as great as it looks.</p>
                     </div>
                 </figcaption>
             </figure>

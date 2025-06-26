@@ -17,20 +17,20 @@ function Service() {
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className='md:w-4/12 md:order-2 md:flex md:flex-col md:justify-center'>
-                <h2 className='app-title2 text-appgray mb-2'>Our Service</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris</p>
+                <h2 className='app-title2 text-appgray mb-2'>What We Do</h2>
+                <p>We offer end-to-end digital solutions including custom web development, mobile app design, SEO optimization, and business strategy. Whether you're launching a new product or scaling your digital presence, we turn ideas into powerful, results-driven solutions.</p>
             </motion.div>
             <div className='flex flex-col md:w-8/12'>
                 <ul className='flex flex-col gap-1 font-koho text-2xl text-appgray'>
-                    <li>Web Development</li>
-                    <li>UI/UX Design</li>
-                    <li>CMS</li>
-                    <li>Business Consulting</li>
-                    <li>SEO</li>
+                    <li>Custom Web Development</li>
+                    <li>User Interface & Experience (UI/UX) Design</li>
+                    <li>Content Management Systems (CMS)</li>
+                    <li>Digital Business Consulting</li>
+                    <li>Search Engine Optimization (SEO)</li>
                     <li>Mobile App Development</li>
                     <li>Software Development</li>
-                    <li>Software Consultancy</li>
-                    <li>Project Management</li>
+                    <li>IT & Software Consultancy</li>
+                    <li>Agile Project Management</li>
                 </ul>
                 <span className='my-16 h-[1px] bg-gray-400 block w-full'></span>
                 <ul className='flex flex-wrap justify-center'>
